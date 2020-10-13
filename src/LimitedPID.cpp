@@ -1,9 +1,8 @@
 #include "LimitedPID.h"
 
-namespace arc{
+namespace arc {
 
-  template class LimitedPID<double>;
-  template class LimitedPID<float>;
+template class LimitedPID<double>;
+template class LimitedPID<float>;
 
-}
-
+} // namespace arc

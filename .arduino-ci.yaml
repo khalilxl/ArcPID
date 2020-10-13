@@ -1,0 +1,9 @@
+unittest:
+
+  platforms:
+    - uno
+    - due
+
+  # Perform unit tests with these compilers (these are the binaries that will be called via the shell)
+  compilers:
+    - g++      # default

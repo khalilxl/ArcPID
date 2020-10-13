@@ -1,9 +1,8 @@
 #include "PID.h"
 
-namespace arc{
+namespace arc {
 
-  template class PID<double>;
-  template class PID<float>;
+template class PID<double>;
+template class PID<float>;
 
-}
-
+} // namespace arc
