@@ -4,6 +4,14 @@ unittest:
     - uno
     - due
 
-  # Perform unit tests with these compilers (these are the binaries that will be called via the shell)
-  compilers:
-    - g++      # default
+compile:
+  libraries: ~
+  platforms:
+    # - uno
+    - due
+    - zero
+    # - leonardo
+    - m4
+    # - esp32
+    # - esp8266
+    # - mega2560
